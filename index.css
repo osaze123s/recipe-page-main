@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Stone100: hsl(30, 54%, 90%);
+  --Stone150: hsl(30, 18%, 87%);
+  --Stone600: hsl(30, 10%, 34%);
+  --Stone900: hsl(24, 5%, 18%);
+  --Brown800: hsl(14, 45%, 36%);
+  --Rose800: hsl(332, 51%, 32%);  
+  --Rose50: hsl(330, 100%, 98%);
+}
+
+body{
+    background: var(--Stone100);
+}
+
+.meal{
+    margin-top: 100px;
+    margin-left: 420px;
+    background: var(--White);
+    border-radius: 15px;
+    margin-right: 350px;
+    padding-left: 30px;
+     
+}
+.meal img {
+  width: 570px;
+  height: 200px;
+  border-radius: 20px;
+  padding-top: 20px;
+  
+}
+.meal h1 {
+   padding-top:12px ;
+}
+
+.meal p {
+    padding-top: 10px;
+    font-size: 15px;
+}
+.center {
+    padding-top: 20px;
+    padding-left: 10px;
+    background: var(--Rose50);
+    margin-top: 20px;
+    margin-right: 25px;
+    border-radius: 15px;
+}
+.center h4 {
+    color: var(--Rose800);
+}
+.list{
+    padding-top: 5px;
+    padding-left: 20px;
+
+}
+.list li {
+   padding-top: 12px;
+  padding-left: 12px;
+}
+li::marker{
+    color: var(--Brown800);
+}
+.content{
+    padding-top: 20px;
+    margin-left: -5px;
+}
+.content h2 {
+  color: var(--Brown800);
+  font-size: 20px;
+}
+
+.close {
+    padding-top: 15px;
+    padding-left: 20px;
+    margin-bottom: 50px;
+}
+.close li {
+    padding-top: 10px;
+    padding-left: 12px;
+}
+ 
+
+.pan hr{
+
+  position: relative;
+  top: -20px;
+  width: 95%;
+}
+
+
+
+.come h2{
+    padding-bottom: 15px;
+   color: var(--Brown800);
+}
+
+.divine li {
+    font-size: 15px;
+    padding-top: 10px;
+    padding-left: 12px;
+}
+.divine {
+    padding-top: 5px;
+    padding-left: 20px;
+}
+.divine li::marker{
+    color: var(--Brown800);
+}
+.chop{
+   
+}
+.chop h2 {
+    padding-top: 15px;
+    padding-bottom: 1px;
+    color: var(--Brown800);
+}
+.chop p {
+    padding-bottom: 15px;
+}
+
+.chop hr {
+    margin-top: 25px;
+    position: relative;
+  width: 95%;
+}
+
+.some  {
+   display: flex;
+   justify-content: space-between;
+   
+}
+.some h6 {
+    padding-top: 12px;
+    padding-right: 200px;
+    font-size: 15px;
+    color: var(--Brown800);
+}
+
+.cat hr{
+    margin-top: 25px;
+    position: relative;
+  width: 95%;
+  top: -15px;
+}
+
+.pan{
+    display: flex;
+   justify-content: space-between;
+
+}
+.pan h6{
+    padding-top: 12px;
+    padding-right: 225px;
+    font-size: 15px;
+    color: var(--Brown800);
+}
+
+.can {
+    margin-top: 25px;
+    position: relative;
+  width: 100%;
+  top: -15px;
+}
+
+.fan{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fan h6 {
+    padding-top: 12px;
+    padding-right: 220px;
+    font-size: 15px;
+    color: var(--Brown800);
+}
+.fun{
+    margin-top: 25px;
+    position: relative;
+  width: 100%;
+  top: -15px;
+}
+
+.meat{
+    display: flex;
+    justify-content: space-between;
+}
+
+.meat h6 {
+    padding-top: 12px;
+    padding-right: 210px;
+    font-size: 15px;
+    color: var(--Brown800);
+}
+
+.none{
+    margin-top: 25px;
+    position: relative;
+  width: 100%;
+  top: -15px;
+  margin-bottom: 200px;
+}
